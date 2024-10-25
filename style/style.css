@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content;
+    margin: auto; */
+    align-items: center;
+    justify-content: center;
+}
+
+.squareRow{
+   
+    display: flex;
+}
+
+.square{
+    width: 85px;
+    height: 85px;
+}
+
+.white{
+    background-color: white;
+}
+
+.BLACK{
+    background-color: blue;
+}
+
+.pices{
+    width: 85px;
+    height: 85px;
+    margin: auto;
+    padding-top: 5px;
+    display: grid;
+    place-items: center;
+    background-color: none;
+    cursor: pointer;
+}
